@@ -11,8 +11,7 @@ public class TpBddApplication {
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(TpBddApplication.class);
         app.setDefaultProperties(Collections
-                .singletonMap("server.port", "8083"));
-
+                .singletonMap("server.port", "80"));
         app.run(args);
     }
 
